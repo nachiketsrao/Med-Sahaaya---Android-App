@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.IndividualProfileActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/bloodlogo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"></ImageView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" USER NAME"
+        android:textSize="20sp"
+      android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/signup_enterusername"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" EMAIL ID"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/signup_enteremailId"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "MOBILE NUMBER"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/signup_entermobilenumber"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" ADRESS"
+        android:maxLines="3"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14sp"
+        android:id="@+id/signup_address"
+        android:inputType="number"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:weightSum="100">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedbtn"
+            android:layout_weight="25"
+            android:id="@+id/call_id_btn"
+            android:text="CALL"></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedbtn"
+            android:layout_weight="25"
+            android:id="@+id/msg_id_btn"
+            android:text="MSG"></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedbtn"
+            android:layout_weight="25"
+            android:id="@+id/email_id_btn"
+            android:text="EMAIL"></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedbtn"
+            android:layout_weight="25"
+            android:id="@+id/map_id_btn"
+            android:text="lOCATE"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>
